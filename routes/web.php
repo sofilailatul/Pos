@@ -34,5 +34,6 @@ Route::prefix('category')->group(function (){
 //Route user view
 Route::get('/user/{id}/name/{name}', [UserController::class, 'index']);
 
+
 //Route Penjualan view
 Route::get('/penjualan', [PenujalanController::class, 'index']);
