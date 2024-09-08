@@ -2,12 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use illuminate\Http\Request;
+use Illuminate\Http\Request;
 
-class PenujalanController extends Controller
+class PenjualanController extends Controller
 {
-    public function index()
-    {
-        return view('Penjualan');
+    public function index() {
+        return view('penjualan');
     }
 }
